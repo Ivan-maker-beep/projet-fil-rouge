@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kendrick Lamar - Discographie</title>
+    <link rel="stylesheet" href="style.css"> <!-- le href style css permet de connecter le ficher html où l'on se trouve au css-->
+</head>
+<body>
+
+<header>
+    <h1>Discographie de Kendrick Lamar</h1> <!--La c'est le titre de la page qui est dans le body donc on peut le voir -->
+    <p>tout ces albums disponibles sur spotify:</p>
+</header>
+
+<nav> <!-- c'est la où j'ai mis les liens qui nous serons utile pour cliquer pour acceder directement a l'une des 3 parties-->
+    <ul> 
+        <li><a href="#albums">Albums</a></li>
+        <li><a href="#bio">Biographie</a></li>
+        <li><a href="#formulaire">formulaire de fin</a></li>
+    </ul>
+</nav>
+
+<main> <!-- j'ai mis les albums la biographie et le formulaire dans le main dans pour une section est attribuer pour les 3 cités precedement et pour chaque album une div-->
+    <section id="albums">
+        <h2>Albums</h2>
+        <div class="album">
+            <img src="images/section80.jpg" alt="cover de l'album section80 il y a des armes sur une tables" loading="lazy">
+            <h3>section.80</h3>
+            <p>sortie le 2 juillet 2011</p>
+            <p><a href="https://open.spotify.com/album/section80">Écouter sur Spotify</a></p>
+        </div>
+        <div class="album">
+            <img src="images/goodkid.jpg" alt="c'est la cover de l'album Good Kid, M.A.A.D City il y a une voiture dans un suburb garer" loading="lazy">
+            <h3>Good Kid, M.A.A.D City</h3>
+            <p>Sortie : 22 octobre 2012</p>
+            <p><a href="https://open.spotify.com/album/goodkid">ecouté sur Spotify</a></p>
+        </div>
+        <div class="album">
+            <img src="images/tpab.jpg" alt="c'est la cover de To Pimp a Butterfly qui met en scene Kendrick et son entourage devant la maison blanche" loading="lazy">
+            <h3>To Pimp a Butterfly</h3>
+            <p>Sortie : 15 mars 2015</p>
+            <p><a href="https://open.spotify.com/album/tpab">ecouter sur Spotify</a></p>
+        </div>
+        <div class="album">
+            <img src="images/damn.jpg" alt="cover de l'album Damn avec kendrick bourré en gros plan" loading="lazy">
+            <h3>DAMN.</h3>
+            <p>Sortie : 14 avril 2017</p>
+            <p><a href="https://open.spotify.com/album/damn">ecouter sur Spotify</a></p>
+        </div>
+        <div class="album">
+            <img src="images/mrl.jpg" alt="c'est la cover de l'album mr the morales & big Steppers on voit kendrick qui porte un enfant avec une femmme a coter" loading="lazy">
+            <h3>Mr. Morale & The Big Steppers</h3>
+            <p>Sortie : 13 mai 2022</p>
+            <p><a href="https://open.spotify.com/album/mrl">ecouter sur Spotify</a></p>
+        </div>
+    </section>
+
+    <section id="bio">
+        <h2>Biographie</h2>
+        <p>Kendrick c'est un rappeur qui a vecu son sa jeunesse a Compton il s'est fait virer de chez lui par son pere vers ses 16 ans c'est la qu'il commence reelement la musique, c'est son projet Good kid Mad city qui l'a fait percer</p>
+    </section>
+
+    <section id="formulaire">
+        <h2>Formulaire</h2>
+        <form action="#" method="POST">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" >
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" >
+
+            <label for="message">Message :</label>
+             
+
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+</main>
+<footer>
+    <p>Mohamed aifa ez.</p>
+</footer>
+</body>
+</html>
+
+
+

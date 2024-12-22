@@ -1,0 +1,168 @@
+
+body, h1, h2, h3, p, ul, li, form, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #064c5c;
+    color: #e3dede;
+}
+
+
+header {
+    background-color: #083877af;
+    color: #eae3e3;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+/* Navigation */
+nav {
+    background-color: #201e1e;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(250, 241, 241);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #77a878;
+}
+
+
+#albums {
+    padding: 20px;
+    text-align: center;
+}
+
+.album {
+    display: inline-block;
+    width: 250px;
+    margin: 16px;
+    text-align: center;
+    background-color: #251f1f;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.album img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.album h3 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+.album p {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+
+.album a {
+    text-decoration: none;
+    color: #4CAF50;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.album a:hover {
+    color: #2e7d32;
+}
+
+.album:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+#bio {
+    background-color: #20301c;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+#formulaire {
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    background: rgb(175, 16, 16);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 0.75rem;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 0.75rem;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+
+footer {
+    background-color: #333;
+    color: rgba(182, 166, 172, 0.622);
+    text-align: center;
+    padding: 10px 0;
+}
+
+
